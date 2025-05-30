@@ -9,5 +9,5 @@ pub extern "C" fn main() {}
 
 #[cfg(feature = "export-abi")]
 fn main() {
-    {{ cookiecutter.project_name_underscored }}::print_from_args();
+    stylus_{{ cookiecutter.project_name_underscored }}::print_from_args();
 }
